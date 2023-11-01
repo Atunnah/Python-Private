@@ -1,0 +1,21 @@
+a = int(input("Nhap a: "))
+b = int(input("Nhap b: "))
+print("a + b = ", a + b)
+print("a - b = ", a - b)
+print("a * b = ", a * b)
+print("a / b = ", a / b)
+print("a^b = ", a ** b)
+print("a % b = ", a % b)
+if(a > b):
+    print("a > b")
+elif(a < b):
+    print("a < b")
+else:
+    print("a = b")
+print("a AND b = ", a & b)
+print("a OR b = ", a | b)
+print("a XOR b = ", a ^ b)
+print("NOT a == b = ", not (a == b))
+print("a dich phai 5 bit = ", a >> 5)
+print("a dich trai 6 bit = ", a << 6)
+print("He co so 2 dao nguoc cua a = ", bin(a)[:1:-1])
